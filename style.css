@@ -2,4 +2,77 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lato';
+}
+
+/* Primo blocco bianco */
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper #logos{
+  margin-top: 2%;
+}
+h1{
+  display: inline-block;
+  margin-top: 5%;
+  font-weight: 300;
+  font-size: 45px;
+}
+.central-white .bluetitle{
+  color: #428bca;
+}
+.central-white > div{
+  float: left;
+  width:33.33%;
+  margin: 5% 0;
+}
+.central-white .smaller{
+  font-size:18px;
+  margin: 4% 0 2% 0;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+  margin: 2% 5% 0;
+  font-weight: 300;
+}
+.wrapper:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Secondo blocco grigio */
+.greycontainer{
+  width: 100vw;
+  background-color: #F9F9F9;
+}
+.greycontainer .backgroundblue{
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #428bca;
+  margin: 5% 0 2% 0;
+}
+.greycontainer img{
+  padding: 30px;
+  width: 150px;
+}
+.greycontainer h2{
+  font-size: 36px;
+  color: #565a5c;
+  font-weight: 500;
+}
+.greycontainer p{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+.greycontainer hr{
+  width: 30%;
+  border-top: 3px double black;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
