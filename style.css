@@ -91,3 +91,31 @@ p{
   color: #565A5C;
   font-weight: 300;
 }
+
+/* Quarto blocco con sfondo */
+.backgrcontainer{
+  background-image: url("http://cademi.it/bundles/fabcademi/img/jumbotron/banner-home2.jpg");
+  background-size: cover;
+  height: 600px;
+}
+.backgrcontainer h1{
+  color: white;
+  font-size: 72px;
+  margin-top: 10%;
+}
+.backgrcontainer h2{
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 5% 0;
+}
+.backgrcontainer button{
+  height: 50px;
+  color: #1b304d;
+  font-size: 13px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 6px;
+}
