@@ -20,7 +20,7 @@ h1{
   font-weight: 300;
   font-size: 45px;
 }
-.central-white .bluetitle{
+.bluetitle{
   color: #428bca;
 }
 .central-white > div{
@@ -75,4 +75,19 @@ p{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* Terzo blocco bianco */
+.central-white2nd > div{
+  float: left;
+  width: 50%;
+  margin: 5% 0;
+}
+.central-white2nd img{
+  height: 200px;
+}
+.central-white2nd h3{
+  font-size: 35px;
+  color: #565A5C;
+  font-weight: 300;
 }
