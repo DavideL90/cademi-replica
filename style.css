@@ -5,6 +5,82 @@
   font-family: 'Lato';
 }
 
+/* Header */
+header{
+  width: 100vw;
+  height: 600px;
+  background-image: url("http://cademi.it/bundles/fabcademi/img/jumbotron/guitarcouple.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header #topbar{
+  position: relative;
+  height: 50px;
+}
+header #topbar #logo{
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+header img{
+  width: 200px;
+}
+header #topbar #how{
+  display: inline-block;
+  color: white;
+  float: right;
+  line-height: 50px;
+  width: 300px;
+  font-size: 13px;
+}
+#topbar #how #lastspan{
+  margin-left: 10%;
+}
+header #topbar:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+header #centraltitle h1{
+  color: white;
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 10%;
+}
+header #centraltitle #coloredword{
+  color: #428bca;
+}
+header #centraltitle p{
+  color: white;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+#searchbar{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  border-radius: 5px;
+}
+#searchbar input, select{
+  margin: 1% 0;
+  padding: 10px 60px;
+}
+#searchbar input{
+  margin-left: 5px;
+}
+#searchbar #searchbutton{
+  background-color: rgb(66, 139, 202);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
 /* Primo blocco bianco */
 .wrapper{
   width: 1170px;
@@ -137,7 +213,7 @@ p{
   padding: 2px 10px;
   margin: 0 1%;
 }
-.wrapper button{
+.wrapper #register{
   margin: 5% 0 2% 0;
   height: 50px;
   color: white;

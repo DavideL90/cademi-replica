@@ -5,8 +5,37 @@
     <title>aCademy</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <div class="wrapper">
+        <div id="topbar">
+          <div id="logo">
+            <img src="http://cademi.it/bundles/fabcademi/img/logo-blue.png">
+          </div>
+          <div id="how">
+            <span>Come Funziona</span>
+            <span id="lastspan"><i class="fas fa-user"></i> Login</span>
+          </div>
+        </div>
+        <div id="centraltitle">
+          <h1>Trova il tuo maestro di <span id="coloredword">musica</span> ideale</h1>
+          <p>Trova il migliore e prenota online. Nessun costo di iscrizione</p>
+        </div>
+        <div id="searchbar">
+          <input type="text" name="address" placeholder="Inserisci il tuo indirizzo">
+          <select class="instrument" name="strumento">
+            <option value="optnull" disabled selected>Scegli uno Strumento</option>
+            <option value="optbatteria">Batteria</option>
+            <option value="optchitarra">Chitarra</option>
+            <option value="optpiano">Pianoforte</option>
+          </select>
+          <button id="searchbutton" type="button" name="search">Cerca</button>
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
       <img id="logos"src="http://cademi.it/bundles/fabcademi/img/prshowoff2.png">
       <h1 class="bluetitle">Come Funziona</h1>
@@ -118,7 +147,7 @@
           6
         </div>
       </div>
-      <button type="button" name="register">ISCRIVITI COME MAESTRO</button>
+      <button id="register" type="button" name="register">ISCRIVITI COME MAESTRO</button>
     </div>
   </body>
 </html>
