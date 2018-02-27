@@ -83,12 +83,13 @@ header #centraltitle p{
 
 /* Primo blocco bianco */
 .wrapper{
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   text-align: center;
 }
 .wrapper #logos{
   margin-top: 2%;
+  width: 100%;
 }
 h1{
   display: inline-block;
@@ -228,10 +229,10 @@ p{
 
 /* MEDIAQUERY */
 
-/* Primo blocco */
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 800px){
   .wrapper{
-    max-width: 900px;
+    max-width: 600px;
+    margin: 0 auto;
   }
   .wrapper #logos{
     display: none;
@@ -239,19 +240,13 @@ p{
   .wrapper .central-white > div{
     width: 100%;
   }
-  .wrapper p{
-    max-width: 100%;
-  }
   .wrapper .central-white2nd > div{
     width: 100%;
   }
+  #topbar *{
+    display: block;
+  }
 }
-@media screen and (max-width: 800px){
-  .wrapper{
-    width: 600px;
-  }
-  .wrapper .central-white p{
-    margin: 0 10%;
-    font-size: 25px;
-  }
+@media screen and (max-width: 400px){
+
 }
