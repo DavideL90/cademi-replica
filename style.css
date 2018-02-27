@@ -232,7 +232,9 @@ p{
 @media screen and (max-width: 800px){
   .wrapper{
     max-width: 600px;
-    margin: 0 auto;
+  }
+  header #topbar input{
+    display: block;
   }
   .wrapper #logos{
     display: none;
@@ -243,10 +245,35 @@ p{
   .wrapper .central-white2nd > div{
     width: 100%;
   }
-  #topbar *{
-    display: block;
+  .backgrcontainer .wrapper{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 @media screen and (max-width: 400px){
-
+  .greycontainer .wrapper p{
+    margin: 5% 5%;
+  }
+  .central-white2nd #screenpic{
+    width: 200px;
+    height: 125px;
+  }
+  .backgrcontainer .wrapper{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .wrapper h1{
+    font-size: 40px;
+  }
+  .backgrcontainer .wrapper h2{
+    font-size: 25px;
+  }
+  .backgrcontainer .wrapper button{
+    width: 75%;
+  }
+  .central-whitenumber .number{
+    font-size: 30px;
+  }
 }
