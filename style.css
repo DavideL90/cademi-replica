@@ -83,7 +83,7 @@ header #centraltitle p{
 
 /* Primo blocco bianco */
 .wrapper{
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   text-align: center;
 }
@@ -224,4 +224,16 @@ p{
   padding-right: 20px;
   border: none;
   border-radius: 6px;
+}
+
+/* MEDIAQUERY */
+
+/* Primo blocco */
+@@media screen and (max-width: 1170px) {
+  #wrapper #logos{
+    display: none;
+  }
+  #wrapper #central-white > div{
+    width: 100%;
+  }
 }
