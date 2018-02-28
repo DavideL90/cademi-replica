@@ -122,9 +122,6 @@ hr{
   .container{
     max-width: 600px;
   }
-  /* header #topbar input{
-    display: block;
-  } */
   #logos{
     display: none;
   }
@@ -149,5 +146,11 @@ hr{
   .imgwhere{
     width: 200px;
     height: 125px;
+  }
+  .background-pic h1{
+    font-size: 40px;
+  }
+  .background-pic h2{
+    font-size: 30px;
   }
 }
