@@ -4,71 +4,45 @@
     <meta charset="utf-8">
     <title>aCademy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="framework.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="wrapper">
-        <div id="topbar">
-          <div id="logo">
-            <img src="http://cademi.it/bundles/fabcademi/img/logo-blue.png">
-          </div>
-          <div id="how">
-            <span>Come Funziona</span>
-            <span id="lastspan"><i class="fas fa-user"></i> Login</span>
-          </div>
-        </div>
-        <div id="centraltitle">
-          <h1>Trova il tuo maestro di <span id="coloredword">musica</span> ideale</h1>
-          <p>Trova il migliore e prenota online. Nessun costo di iscrizione</p>
-        </div>
-        <div id="searchbar">
-          <input type="text" name="address" placeholder="Inserisci il tuo indirizzo">
-          <select class="instrument" name="strumento">
-            <option value="optnull" disabled selected>Scegli uno Strumento</option>
-            <option value="optbatteria">Batteria</option>
-            <option value="optchitarra">Chitarra</option>
-            <option value="optpiano">Pianoforte</option>
-          </select>
-          <button id="searchbutton" type="button" name="search">Cerca</button>
-        </div>
+    <div class="container">
+      <div class="col-12">
+        <img id="logos"src="http://cademi.it/bundles/fabcademi/img/prshowoff2.png">
+        <h1 class="bluetitle">Come Funziona</h1>
       </div>
-    </header>
-    <div class="wrapper">
-      <img id="logos"src="http://cademi.it/bundles/fabcademi/img/prshowoff2.png">
-      <h1 class="bluetitle">Come Funziona</h1>
-      <div class="central-white">
-        <div>
-          <img src="http://cademi.it/bundles/fabcademi/img/search.svg">
-          <h6 class="bluetitle smaller">Cerca</h6>
-          <p><b>Guarda i profili</b> dei migliori
-             maestri della tua zona. Leggi la loro biografia
-             e le recensioni lasciate dai loro studenti
-          </p>
-        </div>
-        <div>
-          <img src="http://cademi.it/bundles/fabcademi/img/letter.svg">
-          <h6 class="bluetitle smaller">Contatta</h6>
-          <p>Scrivi gratuitamente e senza impegno ai maestri che ti
-             interessano e <b>fai tutte le domande che vuoi!</b>
-           </p>
-        </div>
-        <div>
-          <img src="http://cademi.it/bundles/fabcademi/img/male.svg">
-          <h6 class="bluetitle smaller">Inizia a suonare</h6>
-          <p><b>Acquista un pacchetto di lezioni!</b>
-             Vuoi cambiare maestro? Le lezioni acquistate valgono con tutti i
-             più di 1400 maestri Cademi!
-          </p>
-        </div>
+      <div class="col-4">
+        <img src="http://cademi.it/bundles/fabcademi/img/search.svg">
+        <h3 class="bluetitle smaller">Cerca</h3>
+        <p class="description"><b>Guarda i profili</b> dei migliori
+           maestri della tua zona. Leggi la loro biografia
+           e le recensioni lasciate dai loro studenti
+        </p>
+      </div>
+      <div class="col-4">
+        <img src="http://cademi.it/bundles/fabcademi/img/letter.svg">
+        <h3 class="bluetitle smaller">Contatta</h3>
+        <p class="description">Scrivi gratuitamente e senza impegno ai maestri che ti
+           interessano e <b>fai tutte le domande che vuoi!</b>
+        </p>
+      </div>
+      <div class="col-4">
+        <img src="http://cademi.it/bundles/fabcademi/img/male.svg">
+        <h3 class="bluetitle smaller">Inizia a suonare</h3>
+        <p class="description"><b>Acquista un pacchetto</b> di lezioni!
+           Vuoi cambiare maestro? Le lezioni acquistate valgono con tutti i
+           più di 1400 maestri Cademi!
+        </p>
       </div>
     </div>
-    <div class="greycontainer">
-      <div class="wrapper">
+    <div class="background-grey">
+      <div class="container">
         <h1>Perché Cademi</h1>
-        <div>
+        <div class="col-8 col-offset-2">
           <div class="backgroundblue">
             <img src="http://cademi.it/bundles/fabcademi/img/icon/profile.png">
           </div>
@@ -76,11 +50,11 @@
           <p>Su Cademi trovi centinaia di Maestri qualificati e competenti in
              tutta Italia. Scegli quello più adatto a te e <b>contattali senza impegno</b>
           </p>
-        </div>
           <hr>
-        <div>
+        </div>
+        <div class="col-8 col-offset-2">
           <div class="backgroundblue">
-            <img src="http://cademi.it/bundles/fabcademi/img/icon/secure.png">
+          <img src="http://cademi.it/bundles/fabcademi/img/icon/secure.png">
           </div>
           <h2>Soddisfazione Garantita</h2>
           <p>Se non sei soddisfatto del tuo maestro, puoi cambiarlo <b>senza
@@ -88,66 +62,52 @@
              essere utilizzate con tutti i nostri maestri e il nostro
              team è sempre disponibile per darti un consiglio!
           </p>
+          <hr>
         </div>
-        <hr>
-        <div>
+        <div class="col-8 col-offset-2">
           <div class="backgroundblue">
-            <img src="http://cademi.it/bundles/fabcademi/img/icon/flex.png">
+          <img src="http://cademi.it/bundles/fabcademi/img/icon/flex.png">
           </div>
           <h2>Flessibile e conveniente</h2>
-          <p>Cademi <b>non ha alcun costo d’iscrizione </b> a differenza delle scuole
+          <p id="lastparagraph">Cademi <b>non ha alcun costo d’iscrizione </b> a differenza delle scuole
              di musica tradizionali. Inoltre, sei tu a scegliere dove fare
              lezione e gli orari delle tue lezioni.
           </p>
         </div>
       </div>
     </div>
-    <div class="wrapper">
-      <h1>Lezioni dove vuoi tu</h1>
-      <div class="central-white2nd">
-        <div>
-          <img src="http://cademi.it/bundles/fabcademi/img/icon/maps.png">
-          <h3>Di persona</h3>
-          <p>Scegli il tuo maestro preferito e prenota la
-             prima lezione a casa tua, a casa del maestro
-             o nel suo studio
-          </p>
-        </div>
-        <div>
-          <img id="screenpic"src="http://cademi.it/bundles/fabcademi/img/icon/screen.png">
-          <h3>Online</h3>
-          <p>Impara senza muoverti da casa! Scegli da una vastissima
-             lista di maestri abilitati all'insegnamento
-             online, senza doverti preoccupare di
-             distanze e spostamenti
-           </p>
-        </div>
+    <div class="container">
+      <div class="col-12">
+        <h1 id="lessmargin">Lezioni dove vuoi tu</h1>
+      </div>
+      <div class="col-6">
+        <img class="imgwhere"src="http://cademi.it/bundles/fabcademi/img/icon/maps.png">
+        <h3>Di persona</h3>
+        <p class="description">Scegli il tuo maestro preferito e prenota la
+           prima lezione a casa tua, a casa del maestro
+           o nel suo studio
+        </p>
+      </div>
+      <div class="col-6">
+        <img class="imgwhere"src="http://cademi.it/bundles/fabcademi/img/icon/screen.png">
+        <h3>Online</h3>
+        <p class="description">Impara senza muoverti da casa! Scegli da una vastissima
+           lista di maestri abilitati all'insegnamento
+           online, senza doverti preoccupare di
+           distanze e spostamenti
+         </p>
       </div>
     </div>
-    <div class="backgrcontainer">
-      <div class="wrapper">
-        <h1>Impara con Cademi</h1>
-        <h2>Scopri i migliori maestri e inizia subito a suonare</h2>
-        <button type="button" name="infoteacher">TROVA IL TUO MAESTRO ORA</button>
-      </div>
-    </div>
-    <div class="wrapper">
-      <h1 id="smallmargin">I maestri Cademi sono</h1>
-      <div class="central-whitenumber">
-        <div class="number">
-          1
+    <div class="background-pic">
+      <div class="container">
+        <div class="col-12">
+          <h1>Impara con Cademi</h1>
+          <h2>Scopri i migliori maestri e inizia subito a suonare</h2>
         </div>
-        <div class="number">
-          4
-        </div>
-        <div class="number">
-          5
-        </div>
-        <div class="number">
-          6
+        <div class="col-4 col-offset-4">
+          <button type="button" name="infoteacher">TROVA IL TUO MAESTRO ORA</button>
         </div>
       </div>
-      <button id="register" type="button" name="register">ISCRIVITI COME MAESTRO</button>
     </div>
   </body>
 </html>
